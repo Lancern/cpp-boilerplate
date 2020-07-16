@@ -6,7 +6,7 @@ project()
 string(TOLOWER "${PROJECT_NAME}" PROJECT_NAME_LOWERCASE)
 
 set("${PROJECT_NAME}_INCLUDE_DIRECTORY" "include")
-include_directories("${${PROJECT_NAME}_INCLUDE_DIRETORY}")
+include_directories("${${PROJECT_NAME}_INCLUDE_DIRECTORY}")
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
